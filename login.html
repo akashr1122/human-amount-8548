@@ -119,12 +119,12 @@
             
 
             <form id="form">
-                <p id="account">Don't have an account <a href="singup.html">Sign up</a></p>
+                <p id="account">Don't have an account <a href="signup.html">Sign up</a></p>
                  
                 <p id="create">Log in  </p>
        
                  <label for="">Email address</label> 
-                  <input type="text" id="email"> <br>
+                  <input type="text" id="email" value=""> <br>
                  <a href="">forgot email?</a><br>
 
                      <button>Next</button>
@@ -156,12 +156,57 @@
                     </div>
              </div>
              </div>
+             
+       </body>
+       </html>
         
 
             
+     <script>
+          let login = JSON.parse(localStorage.getItem("Signup")) ;
+        //   console.log(login)
 
+      
+                   
+
+          document.querySelector("button").addEventListener("click",btnmoj);
+          let present = 0;
+          function btnmoj(){
+              event.preventDefault()
+
+              let check_mail = document.querySelector("#email").value
+              console.log(check_mail)
+          
+          
+          login.forEach(function(ele){
+              console.log(ele.email)
+             
+              
+         if(ele.email == check_mail){
+             console.log("hgya")
+             present = 1;
+             localStorage.setItem("final",JSON.stringify(ele));
+            
+
+         }
+
+          })
+
+        
+              
+           if(present == 1){
+              
+                window.location.href = "passwordin.html"
+              
+                   
+               
+                
+               
+           }else{
+               alert("Email Does'nt Exist")
+           }
+          }
+        
+     </script>
                  
         
-      
-</body>
-</html>

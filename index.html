@@ -29,14 +29,169 @@
         }
         button{
             background-color: #f9BE00;
+
+
+            
             font-size: 20px;
                font-weight:600;
             padding: 16px;
-         
-               color: #333E48;
             border: 0;
          
         }
+        a{
+            color: #333E48;
+            text-decoration: none;
+        }
+        #header,
+        .but{
+            font-size: 20px;
+            color: rgb(104, 94, 94);
+            display: grid;
+            margin: auto;
+            justify-content: center;
+              
+        }
+        #header{
+            margin-top: 150px;
+        }
+  
+        .auto-type{
+            font-size: 60px;
+            font-weight: bold;
+           
+            color: #34393d;
+            /* color: white; */
+        }
+        #butt{
+            
+            width: 100%;
+            margin:auto;
+            padding: 0px 36px;
+            height: 50px;
+            /* margin-bottom: 550px; */
+            background-color:#00BF6F ;
+        }
+        #butt >a{
+            color: #FFFFFF;
+            font-size: 15px;  
+             
+
+        }
+    .aass{
+            text-align: center;
+            margin-top: 150px;
+            color: #333E48;
+            font-size: 25px;
+        }
+        #logo{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            margin-top: 50px;
+            width: 70%;
+        }
+        #logo > div> img{
+            /* display: block; */
+                /* margin: auto; */
+                width: 65%;
+                margin-left: 20px;
+        }
+       
+        .imgg > img{
+          margin-top: 15px;
+         /* border: 1px solid red; */
+        }
+        #plan{
+            margin-top: 80PX;
+            text-align: center;
+           
+        }
+        #plan > h3{
+            font-size: 30px;color: #293035;
+        }
+        #plan > p{
+            color:gray ;
+        }
+        #planop{
+             display: flex;
+             margin: auto;
+             justify-content: space-evenly;
+             /* border: 1px solid red; */
+             width: 900px;
+        }
+         #planop > div{
+             border: 1px solid white;
+             width: 400px;
+             padding: 20px;
+             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         }
+         #planop{
+              text-align: center;
+              margin-top: 50px;gap: 30px;
+              
+         }
+         #planop img{
+              width: 90px;
+         }
+        
+         .grn{
+             background-color: #00BF6F;
+             color: white;
+             margin-top:33px ;
+             font-size: small;
+         }
+         .blue{
+             background-color: #05467E;
+             color: white;
+             font-size: small;
+         }
+         .vlt{
+             background-color:#671E75 ;
+             color: white;
+             font-size: small;
+         }
+         #planop h1{
+             font-size:35px;
+              color: #171a1b;
+         }
+         .p{
+            color: #333E48;
+         }
+         #blue{
+             margin: auto;
+             margin-top: 80px;
+             background-color: #05467E;
+             height: 300px;
+             justify-content: center;
+             text-align: center; 
+             padding: 40px;
+             color: white;
+             font-size: 20px;
+             width: 1500px;
+         }
+         .text{
+             width: 40%;
+            
+             padding-top: 60px;
+            margin-left: 30%
+         }
+         .learn{
+              padding: 10px;
+              background-color: #FFFFFF;
+              font-size: small;
+              margin-right: 50px;
+
+         }
+         #backg{
+             background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png");
+             width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             justify-content: center;
+             align-items: center;
+         }
+
     </style>
 </head>
 <body>
@@ -50,10 +205,112 @@
             <div>Plans & Pricing</div>
        </div>
        <div>
-         <span  id="login">Log in</span>  
-           <span id="signup"><button>Sign up free</button></span>
+         <span  id="login"><a href="login.html">Log in</a> </span>  
+           <span id="signup"><button><a href="signup.html"> Sign up free</a></button></span>
        </div>
 
     </div>
+
+    <div id="header">
+        <div class="container">
+            <p><span class="auto-type"></span></p>
+        </div>
+      
+        
+       
+    </div>
+    <div class="but"><p>A global leader in survey software. 20 million questions answered daily.</p></div>
+    <div class="but">   <button id="butt"><a href="signup.html">Get started</a> </button> </div>
+
+    <p class="aass"><b>Join more than 19 million active users worldwide</b></p>
+       
+    <div id="logo">
+        <div class="imgg"><img src="https://prod.smassets.net/assets/cms/sm/uploads//Allbirds-slate.png" alt=""></div>
+        <div><img src="https://prod.smassets.net/assets/cms/sm/uploads//Tweezerman-logo-2x.png" alt=""></div>
+        <div><img src="https://prod.smassets.net/assets/cms/sm/uploads//Adobe-logo-2x.png" alt=""></div>
+        <div><img src="https://prod.smassets.net/assets/cms/sm/uploads//Verizon-logo-2x.png" alt=""></div>
+        <div class="imgg"><img src="https://prod.smassets.net/assets/cms/sm/uploads//sephora-logo.png" alt=""></div>
+    </div>
+
+      <div id="plan">
+          <h3>Choose a plan that works for you</h3>
+          <p>Get an individual plan with features that you need, or create a team instead!</p>
+      </div>
+
+      <div id="planop">
+          <div>
+              <h5>Basic</h5>
+<img src="data:image/png;base64,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" alt="">
+            <p>Always free</p>
+            <button class="grn">Signup</button>
+            <p>Send unlimited surveys with up to 10 questions. Response limits apply.</p>
+          </div>
+          <div>
+            <h5>Individual Advantage</h5>
+            <h1>&#8377 1,999</h1>
+            <p class="p">/month</p>
+            <p>Billed ₹23,988 annually    </p>
+            <button class="blue">See all Feature</button>
+            <p>Get our most popular features for creating, sending & analyzing surveys.
+
+            </p>
+             
+          </div>
+          <div>
+   <h5>Team Advantage</h5>
+   <h1>&#8377 1,550</h1>
+            <p class="p">per user / month</p>
+            <p>Starting at 3 users, billed annually</p>
+            <button class="vlt">See all features</button>
+            <p>Collaboration tools and survey features that help your team work more efficiently.</p>
+
+          </div>
+      </div>
+
+       <div id="blue">
+           <div class="text">
+              <p>Looking for targeted responses to your surveys?</p>
+              <p> Get the responses you need in minutes with SurveyMonkey Audience, our</p> 
+              <p> trusted panel of more than 175 million respondents from across the globe.</p>
+           </div>
+              <button class="learn">Learn more</button>
+       </div>
+          <div id="backg">Lorem ipsum dolor sit  </div>
 </body>
 </html>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+   <script>
+
+       var typed = new Typed(".auto-type",{
+           strings:["Do people like attending my events?","Are my customers actually satisfied?","Will my product be a success or a flop?","Are my employes happy at work?"],
+           typeSpeed:20,
+           backSpeed:30,
+           loop:true
+       })
+   </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
