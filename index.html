@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>surveymonkey.com</title>
+    <style>
+        #navbar{
+            display: flex;
+            /* justify-content: space-around; */
+              margin: 40px;
+              margin-left: 90px;
+              margin-right: 90px;
+              font-size: 20px;
+               font-weight:600;
+            
+               color: #333E48;
+              
+        }
+        #mid{
+             display: flex; 
+              gap: 40px;
+            margin: auto;
+        }
+        #signup{
+            margin-left: 20px;
+          
+        }
+        button{
+            background-color: #f9BE00;
+
+
+            
+            font-size: 20px;
+               font-weight:600;
+            padding: 16px;
+            border: 0;
+         
+        }
+        a{
+            color: #333E48;
+            text-decoration: none;
+        }
+        #header,
+        .but{
+            font-size: 20px;
+            color: rgb(104, 94, 94);
+            display: grid;
+            margin: auto;
+            justify-content: center;
+              
+        }
+        #header{
+            margin-top: 150px;
+        }
+  
+        .auto-type{
+            font-size: 60px;
+            font-weight: bold;
+           
+            color: #34393d;
+            /* color: white; */
+        }
+        #butt{
+            
+            width: 100%;
+            margin:auto;
+            padding: 0px 36px;
+            height: 50px;
+            /* margin-bottom: 550px; */
+            background-color:#00BF6F ;
+        }
+        #butt >a{
+            color: #FFFFFF;
+            font-size: 15px;  
+             
+
+        }
+    .aass{
+            text-align: center;
+            margin-top: 150px;
+            color: #333E48;
+            font-size: 25px;
+        }
+        #logo{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            margin-top: 50px;
+            width: 70%;
+        }
+        #logo > div> img{
+            /* display: block; */
+                /* margin: auto; */
+                width: 65%;
+                margin-left: 20px;
+        }
+       
+        .imgg > img{
+          margin-top: 15px;
+         /* border: 1px solid red; */
+        }
+        #plan{
+            margin-top: 80PX;
+            text-align: center;
+           
+        }
+        #plan > h3{
+            font-size: 30px;color: #293035;
+        }
+        #plan > p{
+            color:gray ;
+        }
+        #planop{
+             display: flex;
+             margin: auto;
+             justify-content: space-evenly;
+             /* border: 1px solid red; */
+             width: 900px;
+        }
+         #planop > div{
+             border: 1px solid white;
+             width: 400px;
+             padding: 20px;
+             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         }
+         #planop{
+              text-align: center;
+              margin-top: 50px;gap: 30px;
+              
+         }
+         #planop img{
+              width: 90px;
+         }
+        
+         .grn{
+             background-color: #00BF6F;
+             color: white;
+             margin-top:33px ;
+             font-size: small;
+         }
+         .blue{
+             background-color: #05467E;
+             color: white;
+             font-size: small;
+         }
+         .vlt{
+             background-color:#671E75 ;
+             color: white;
+             font-size: small;
+         }
+         #planop h1{
+             font-size:35px;
+              color: #171a1b;
+         }
+         .p{
+            color: #333E48;
+         }
+         #blue{
+             margin: auto;
+             margin-top: 80px;
+             background-color: #05467E;
+             height: 300px;
+             justify-content: center;
+             text-align: center; 
+             padding: 40px;
+             color: white;
+             font-size: 20px;
+             width: 1500px;
+         }
+         .text{
+             width: 40%;
+            
+             padding-top: 60px;
+            margin-left: 30%
+         }
+         .learn{
+              padding: 10px;
+              background-color: #FFFFFF;
+              font-size: small;
+              margin-right: 50px;
+
+         }
+         #backg{
+             background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png");
+             width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             justify-content: center;
+             align-items: center;
+         }
+         #white{
+             width: 1000px;
+             margin: auto;
+             text-align: center;
+               margin-top: 100px;
+               font-size: 30px;
+         }
+        
+      
+        #main_scroll{
+            display: flex;
+            margin: auto;
+            width: 100px;
+            justify-content: space-around;
+            gap: 150px;
+        }
+       
+
+
+
+
+        
+        .scroll-filterbg{
+width: auto;
+margin: 40% auto;
+/* padding: 30px; */
+
+
+
+
+        }
+
+        .scroll-filterdiv{
+         width: 100%;
+          /* background-color: aqua; */
+         height: 600px;
+         overflow: hidden;
+         overflow-y: scroll;
+         margin-right: 100px;
+         margin-left: 90px;
+        }
+        .scroll-filterbject{
+            font-family: cursive;
+            font-size: 15px;
+           
+            
+            
+        }
+
+
+
+
+
+        .scroll-bg{
+width: 1000px;
+margin: 10% auto;
+padding: 30px;
+margin-right: 70px;
+
+
+        }
+
+        .scroll-div{
+         /* width: 1000px; */
+         width: 100%;
+          /* background-color: aqua; */
+         height:600px;
+         padding-right: 30px;
+         
+         overflow: hidden;
+         overflow-y: scroll;
+        }
+        .scroll-object{
+            font-family: cursive;
+            font-size: 15px;
+        
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(4,160px);
+            /* gap: 70px; */
+            gap: 40px;
+            column-gap: 90px;
+            
+            
+        }
+        .box{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box1{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Product-Survey.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box2{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//product-testing-survey-template.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box3{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//university-student-satisfaction-survey-template.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box4{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//online-shopping-attitudes-survey-template.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box5{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box6{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//skin-care-products-survey-template.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box7{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//new-product-survey-template.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto; color: white;
+              font-weight: bold;
+              text-align: center;
+              
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box8{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//package-testing.jpg");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box9{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Work_life_balance.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+              color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box10{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//fundraising-feedback-survey-template.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box11{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//self-driving-cars-survey-template.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box12{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//survey-template-placeholder.png");
+            width: 220px;
+             height: 220px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+
+        #main_group {
+            padding-bottom: 500px;
+        }
+        .flex{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            
+
+        }
+         .flex_box{
+          
+             margin-left: 10px;
+             font-size: 20px;
+             color: #333e48
+            
+             /* width: 24px; */
+         }
+         input.checkit{
+             transform: scale(2);
+             margin-right: 10px;
+            
+             
+         }
+         .num{
+            font-size: 18px;
+            color: darkslategray;
+            margin-right: 10px;
+         }
+         #allsur{
+             color: crimson;
+             font-weight: bold;
+         }
+         #allnum{
+             color: crimson;
+             font-weight: bold;
+         }
+         #scrollerop{
+             margin-top: 70px;
+         }
+         #noneed{
+             width: 900px;
+             
+             margin: auto;
+             margin-top: 120px;
+             text-align: center;
+             font-size: 29px;
+             color: #333E48;
+           
+             /* font-weight: bold; */
+         }
+         #noneed > h4{
+            font-size: 50px;
+            color: #24282b;
+         }
+         #imgwla{
+             display: flex;
+             width: 1500px;
+             margin: auto;
+        
+             margin-top: 100px;
+             text-align: center;
+             justify-content: center;
+             font-size: 18px;
+            font-weight: bold;
+             /* gap: 30px; */
+           
+         }
+         #imgwla > div > div{
+             /* width: 10%; */
+             width: 500px;
+             /* margin-left: 70px; */
+             
+                font-weight: 100;
+             font-size: 29px;
+              color: #333E48;
+         }
+         #imgwla > div >h5{
+             /* width: 10%; */
+             font-size: 28px;
+             color: #293035;
+         }
+         
+         
+
+    </style>
+</head>
+<body>
+    <div id="navbar">
+    
+       <div> <img src="https://prod.smassets.net/assets/cms/cc/app/2.178.0/images/logo-surveymonkey.svg" alt=""></div>
+      <div id="mid">
+           <div>Products</div>
+           <div>Solutons</div>
+           <div>Resourses</div>
+            <div>Plans & Pricing</div>
+       </div>
+       <div>
+         <span  id="login"><a href="login.html">Log in</a> </span>  
+           <span id="signup"><button><a href="signup.html"> Sign up free</a></button></span>
+       </div>
+
+    </div>
+
+    <div id="header">
+        <div class="container">
+            <p><span class="auto-type"></span></p>
+        </div>
+      
+        
+       
+    </div>
+    <div class="but"><p>A global leader in survey software. 20 million questions answered daily.</p></div>
+    <div class="but">   <button id="butt"><a href="signup.html">Get started</a> </button> </div>
+
+    <p class="aass"><b>Join more than 19 million active users worldwide</b></p>
+       
+    <div id="logo">
+        <div class="imgg"><img src="https://prod.smassets.net/assets/cms/sm/uploads//Allbirds-slate.png" alt=""></div>
+        <div><img src="https://prod.smassets.net/assets/cms/sm/uploads//Tweezerman-logo-2x.png" alt=""></div>
+        <div><img src="https://prod.smassets.net/assets/cms/sm/uploads//Adobe-logo-2x.png" alt=""></div>
+        <div><img src="https://prod.smassets.net/assets/cms/sm/uploads//Verizon-logo-2x.png" alt=""></div>
+        <div class="imgg"><img src="https://prod.smassets.net/assets/cms/sm/uploads//sephora-logo.png" alt=""></div>
+    </div>
+
+      <div id="plan">
+          <h3>Choose a plan that works for you</h3>
+          <p>Get an individual plan with features that you need, or create a team instead!</p>
+      </div>
+
+      <div id="planop">
+          <div>
+              <h5>Basic</h5>
+<img src="data:image/png;base64,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" alt="">
+            <p>Always free</p>
+            <button class="grn">Signup</button>
+            <p>Send unlimited surveys with up to 10 questions. Response limits apply.</p>
+          </div>
+          <div>
+            <h5>Individual Advantage</h5>
+            <h1>&#8377 1,999</h1>
+            <p class="p">/month</p>
+            <p>Billed ₹23,988 annually    </p>
+            <button class="blue">See all Feature</button>
+            <p>Get our most popular features for creating, sending & analyzing surveys.
+
+            </p>
+             
+          </div>
+          <div>
+   <h5>Team Advantage</h5>
+   <h1>&#8377 1,550</h1>
+            <p class="p">per user / month</p>
+            <p>Starting at 3 users, billed annually</p>
+            <button class="vlt">See all features</button>
+            <p>Collaboration tools and survey features that help your team work more efficiently.</p>
+
+          </div>
+      </div>
+
+       <div id="blue">
+           <div class="text">
+              <p>Looking for targeted responses to your surveys?</p>
+              <p> Get the responses you need in minutes with SurveyMonkey Audience, our</p> 
+              <p> trusted panel of more than 175 million respondents from across the globe.</p>
+           </div>
+              <button class="learn">Learn more</button>
+       </div>
+       <div id="white">
+        <h4>Start with an expert-written template</h4>
+        <p>Our sample survey templates make it easy for you to start collecting feedback in just minutes. Explore hundreds of questions across different survey types, all designed to get you accurate results you can rely on.
+
+     </p>
+
+    </div>
+       <div id="scrollerop">
+
+        
+            <div id="main_scroll">
+                
+                    <div class="scroll-filterbg">
+                        <div class="scroll-filterdiv">
+                        
+                            <div class="scroll-filterobject">
+                               
+                             <div id="main_group">
+        
+                                <div class="flex">
+                                    <span class="flex_box" id="allsur">
+                             <input class="checkit" aria-checked="false" id="filtered-edu" type="checkbox" value="all">
+                              <span>All Survay</span>
+                                        
+                                    </span>
+                                   <span id="allnum" class="num">215</span>
+        
+                                </div>
+                                    <div class="flex">
+        
+                                        
+                                        <span class="flex_box">
+                                 <input class="checkit" aria-checked="false" id="filtered-cus" type="checkbox" value="customers">
+                                  <span>Customers</span>
+                                            
+                                        </span>
+                                       <span class="num">35</span>
+        
+                                    </div>
+        
+                              
+                                    <div class="flex">
+                                        <span class="flex_box">
+                                 <input class="checkit" aria-checked="false" id="filtered-edu" type="checkbox" value="education">
+                                  <span>Educations</span>
+                                            
+                                        </span>
+                                       <span class="num">20</span>
+        
+                                    </div>
+                                  
+        
+                                    <div class="flex">
+                                        <span class="flex_box">
+                                 <input class="checkit" aria-checked="false" id="filtered-emp" type="checkbox" value="employees">
+                                  <span>Employess</span>
+                                            
+                                        </span>
+                                       <span class="num">50</span>
+        
+                                    </div>
+        
+                                    <div class="flex">
+                                        <span class="flex_box">
+                                 <input class="checkit" aria-checked="false" id="filtered-eve" type="checkbox" value="events">
+        
+                                  <span>Events</span>
+                                            
+                                        </span>
+                                       <span class="num">10</span>
+        
+                                    </div>
+        
+                             
+                                    <div class="flex">
+                                        <span class="flex_box">
+                                 <input class="checkit" aria-checked="false" id="filtered-hel" type="checkbox" value="healthcare">
+                                  <span>Healthcare</span>
+                                            
+                                        </span>
+                                       <span class="num">20</span>
+        
+                                    </div>
+        
+                                
+                                    <div class="flex">
+                                        <span class="flex_box">
+                                 <input class="checkit" aria-checked="false" id="filtered-mar" type="checkbox" value="market-reserch">
+                                  <span>Market Research</span>
+                                            
+                                        </span>
+                                       <span class="num">45</span>
+        
+                                    </div>
+        
+                              
+                                    <div class="flex">
+                                        <span class="flex_box">
+                                 <input class="checkit" aria-checked="false" id="filtered-non" type="checkbox" value="Nonprofits">
+                                  <span>Nonprofits</span>
+                                            
+                                        </span>
+                                       <span class="num">05</span>
+        
+                                    </div>
+        
+                                
+                        
+                                    <div class="flex">
+                                        <span class="flex_box">
+                                 <input class="checkit" aria-checked="false" id="filtered-oth" type="checkbox" value="others">
+                                  <span>Others</span>
+                                            
+                                        </span>
+                                       <span class="num">30</span>
+        
+                                    </div>
+        
+                                </div>
+        
+        
+        
+        
+                                </div>
+                                </div>
+                                </div>
+        
+                         
+              
+                    <div class="scroll-bg">
+                        <div class="scroll-div">
+                        
+                            <div class="scroll-object" id="append">
+        
+        <!--               
+                           <div class="box">This is new car </div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div>
+                           <div class="box">This is new car</div> -->
+                            
+                            </div>
+                        </div>
+                        
+                        
+                            <!-- </div> -->
+                </div>
+            </div>
+            
+            
+        
+
+ 
+       </div>
+
+       <div id="noneed">
+           <h4>Tools that spark business breakthroughs</h4>
+           <p>Discover specialized toolkits designed for your role and industry.
+
+        </p>
+       </div>
+       <div id="imgwla">
+         <div>
+             <img src="https://prod.smassets.net/assets/cms/sm/uploads//customer-support-toolkit-directory.png" alt="">
+             <h5>Customer support</h5>
+             <div>
+                <p>
+                Provide better customer experiences while keeping your teams engaged.
+              </p></div>
+             
+              <a href="">Learn more</a>
+         </div>
+         <div>
+             <img src="https://prod.smassets.net/assets/cms/sm/uploads//hr-leader-toolkit-directory.png" alt="">
+             <h5>Human resources</h5>
+             <div>
+                <p>Retain your workforce by fostering a world-class employee experience.</p>
+                </div>
+          
+             <a class="a" href="">Learn more</a>
+         </div>
+         <div>
+             <img src="https://prod.smassets.net/assets/cms/sm/uploads//product-manager-toolkit-directory.png" alt="">
+             <h5>Product management</h5>
+             <div>
+                <p>Build products that drive impact and offer a strong product-market fit.</p>
+                </div>
+          
+             <a href="">Learn more</a>
+         </div>
+       </div>
+     
+       
+         
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+   <script>
+
+       var typed = new Typed(".auto-type",{
+           strings:["Do people like attending my events?","Are my customers actually satisfied?","Will my product be a success or a flop?","Are my employes happy at work?"],
+           typeSpeed:20,
+           backSpeed:30,
+           loop:true
+       })
+   </script>
+   <script>
+   
+
+
+    let arrobj = [
+  
+             
+                {name:"Homeowners' Association(HOA) survey template", val :"customers"  },
+                {name:"Automobile buyer feedback", val :"customers"  },
+                {name:"Social media safty", val :" customers"  },
+                {name:"CRM software survey templat", val :"customers"  },
+                {name:"Customer experience", val :" customers"  },
+                {name:"Website feedback (intercept) survey template", val :"customers"  },
+                {name:"Feature request template", val :" customers"  },
+                {name:"Post purchase evaluation template", val :"customers"  },
+                {name:"Customer testimonial template", val :"customers"  },
+                {name:"Customer review template", val : "customers"  },
+                {name:"Brand perception survey", val :"customers"  },
+                {name:"Consumer behavior", val :"customers"  },
+                {name:"school climate", val :"education"  },
+                {name:"University instutor evalutin", val :"education"  },
+                {name:"High school sports- student feedback", val :"education"  },
+                {name:" Workshop survey", val :"education"  },
+                {name:"Website feedback survey templete", val : "customers"  },
+                {name:"Website feedback survey templete", val : "customers"  },
+                {name:"Customer comments", val :"customers"  },
+                {name:"Restaurant feedback survey templete", val :"customers"  },
+                {name:"Path to purchase", val :"customers"  },
+                {name:"NPS and brand loyalty", val :"customers"  },
+                {name:"Corporate social responsibility survey templete", val :"customers"  },
+                {name:"Help desk feedback survey template", val :"customers"  },
+                {name:"School program fit", val :"education"  },
+                {name:"parent self-efficacy", val :"education"  },
+                {name:"Aluni template", val :"education"  },
+                {name:"Mailchmp customer check-in template", val :"customers"  },
+                {name:"Coronavirus B2B customer pulse survey template", val :"customers"  },
+                {name:"Mobil app feedback", val :" customers"  },
+                {name:"Software and app customer feedback", val :"customers"  },
+                {name:"Customer feedback survey template (Business to Business)", val :"customers"  },
+                {name:"University student satisfaction", val :"education"  },
+                {name:"Education demographics", val :"education"  },
+                {name:"Course evaluation survey template", val :"education"  },
+                {name:"Learning support", val :"education"  },
+                {name:"K-12 parent template", val :"education"  },
+                {name:"Parent engagement", val :"education"  },
+                {name:"University teaching assistance evaluation survey template", val :"education"  },
+                {name:"Child behaviors survey template", val :"education"  },
+                {name:"Bullying survey", val :"education"  },
+                {name:"University faculty satisfaction", val :"education"  },
+                {name:"University student graduation template", val :"education"  },
+                {name:"Name That Novel survey template", val :"education"  },
+                {name:"High school teacher evaluation template", val :"education"  },
+                {name:"360-degree employee evaluation", val :"employees"  },
+                {name:"Employee engagement", val :"employees"  },
+                {name:"Management performance", val :"employees"  },
+                {name:"Employee satisfaction", val :"employees"  },
+                {name:"Team performance", val :"employees"  },
+                {name:"Employee exit", val :"employees"  },
+                {name:"Employee benefit", val :"employees"  },
+                {name:"Recruitment satisfication", val :"employees"  },
+                {name:"Work environment", val :"employees"  },
+                {name:"Department performance", val :"employees"  },
+                {name:"Employee performance", val :"employees"  },
+                {name:"Employment template", val :"employees"  },
+                {name:"Supervisor performance", val :"employees"  },
+                {name:"Employee motivation", val :"employees"  },
+                {name:"Career development", val :"employees"  },
+                {name:"New hire onboarding survey template", val :"employees"  },
+                {name:"Meeting feedback survey template", val :"employees"  },
+                {name:"Compensation survey template", val :"employees"  },
+                {name:"Work life balance survey", val :"employees"  },
+                {name:"Exit interview survey template", val :"employees"  },
+                {name:"Employee diversity", val :"employees"  },
+                {name:"Team building template", val :"employees"  },
+                {name:"Stakeholder template", val :"employees"  },
+                {name:"Candiate experience", val :"employees"  },
+                {name:"Relationship management", val :"employees"  },
+                {name:"Work engagement", val :"employees"  },
+                {name:"Professional development template", val :"employees"  },
+                {name:"Organizational culture survey template", val :"employees"  },
+                {name:"Mentorship and advocacy", val :"employees"  },
+                {name:"Job applicaton survey template", val :"employees"  },
+                {name:"Vendor workplace diversity survey", val :"employees"  },
+                {name:"Online professional networking", val :"employees"  },
+                {name:"Workplace benefits survey", val :"employees"  },
+                {name:"Entry interview survey template", val :"employees"  },
+                {name:"Leadership style survey template", val :"employees"  },
+                {name:"Timesheet template", val :"employees"  },
+                {name:"Wage gap evaluation survey", val :"employees"  },
+                {name:"Culture of Genius template", val :"employees"  },
+                {name:"Customer effort score survey", val :"employees"  },
+                {name:"Help desk template", val :"employees"  },
+                {name:"Return to the office survey template", val :"employees"  },
+                {name:"Job application template", val :"employees"  },
+                {name:"Gender inclusivity at work survey template", val :"employees"  },
+                {name:"SurveyMokey team survey", val :"employees"  },
+                {name:"Impact of racism employee check-in", val :"employees"  },
+                {name:"Adam Grant entry interview", val :"employees"  },
+                {name:"Gender in the workplace", val :"employees"  },
+                {name:"New hire training quiz", val :"employees"  },
+                {name:"Benefits template", val :"employees"  },
+                {name:"Corporate legal training quiz", val :"employees"  },
+                {name:"General event feedback survey template", val :"events"  },
+                {name:"RSVP and contact information", val :"events"  },
+                {name:"Professional event feedback", val :"events"  },
+                {name:"Post-event feedback survey template", val :"events"  },
+                {name:"Event planning", val :"events"  },
+                {name:"Entertainment event feedback", val :"events"  },
+                {name:"Neighborhood events survey template", val :"events"  },
+                {name:"Appointment template", val :"events"  },
+                {name:"Endurance event feedback", val :"events"  },
+                {name:"Eventbrite post-event feedback", val :"events"  },
+                {name:"Diet,fitness,and exercice", val :"healthcare"  },
+                {name:"Mental health survey", val :"healthcare"  },
+                {name:"Stress survey", val :"healthcare"  },
+                {name:"Post-vist patient satisfaction", val :"healthcare"  },
+                {name:"Hospital performance evaluation", val :"healthcare"  },
+                {name:"Health insurance evaluation", val :"healthcare"  },
+                {name:"CAHPS Vists Survey 2.0", val :"healthcare"  },
+                {name:"Personal hygience survey template", val :"healthcare"  },
+                {name:"Health insurance template", val :"healthcare"  },
+                {name:"Smoking template", val :"healthcare"  },
+                {name:"Height and weight survey template", val :"healthcare"  },
+                {name:"Healthcare expenses", val :"healthcare"  },
+                {name:"Social support", val :"healthcare"  },
+                {name:"Health check-in survey template", val :"healthcare"  },
+                {name:"CAHPS Dental Plan Survey", val :"healthcare"  },
+                {name:"Veterinarian patient intake template", val :"healthcare"  },
+                {name:"Neighborhood events survey template", val :"healthcare"  },
+                {name:"Height and weight survey template", val :"healthcare"  },
+                {name:"Smoking template", val :"healthcare"  },
+                {name:"Height and weight survey template", val :"healthcare"  },
+                {name:"CRM software survey templat", val :"market-reserch"  },
+                {name:"Customer experience", val :"market-reserch"  },
+                {name:"Website feedback (intercept) survey template", val :"market-reserch"  },
+                {name:"Feature request template", val :"market-reserch"  },
+                {name:"Post purchase evaluation template", val :"market-reserch"  },
+                {name:"Customer testimonial template", val :"market-reserch"  },
+                {name:"Customer review template", val :"market-reserch"  },
+                {name:"Brand perception survey", val :"market-reserch"  },
+                {name:"Consumer behavior", val :"market-reserch"  },
+                {name:"Mailchmp customer check-in template", val :"market-reserch"  },
+                {name:"Coronavirus B2B customer pulse survey template", val :"market-reserch"  },
+                {name:"Mobil app feedback", val :"market-reserch"  },
+                {name:"Software and app customer feedback", val :"market-reserch"  },
+                {name:"Customer feedback survey template (Business to Business)", val :"market-reserch"  },
+                {name:"University student satisfaction", val :"market-reserch"  },
+                {name:"Education demographics", val :"market-reserch"  },
+                {name:"Course evaluation survey template", val :"market-reserch"  },
+                {name:"Learning support", val :"education"  },
+                {name:"K-12 parent template", val :"market-reserch"  },
+                {name:"Parent engagement", val :"market-reserch"  },
+                {name:"University teaching assistance evaluation survey template", val :"market-reserch"  },
+                {name:"Child behaviors survey template", val :"market-reserch"  },
+                {name:"Bullying survey", val :"market-reserch"  },
+                {name:"University faculty satisfaction", val :"market-reserch"  },
+                {name:"University student graduation template", val :"market-reserch"  },
+                {name:"school climate", val :"market-reserch"  },
+                {name:"University instutor evalutin", val :"market-reserch"  },
+                {name:"High school sports- student feedback", val :"market-reserch"  },
+                {name:" Workshop survey", val :"market-reserch"  },
+                {name:"School program fit", val :"market-reserch"  },
+                {name:"parent self-efficacy", val :"market-reserch"  },
+                {name:"Aluni template", val :"market-reserch"  },
+                {name:"Name That Novel survey template", val :"market-reserch"  },
+                {name:"High school teacher evaluation template", val :"market-reserch"  },
+                {name:"360-degree employee evaluation", val :"market-reserch"  },
+                {name:"Employee engagement", val :"employees"  },
+                {name:"Management performance", val :"market-reserch"  },
+                {name:"Employee satisfaction", val :"market-reserchs"  },
+                {name:"Team performance", val :"market-reserch"  },
+                {name:"Employee exit", val :"market-reserch"  },
+                {name:"Employee benefit", val :"market-reserch"  },
+                {name:"Recruitment satisfication", val :"market-reserch"  },
+                {name:"Work environment", val :"market-reserch"  },
+                {name:"Department performance", val :"market-reserch"  },
+                {name:"Employee performance", val :"market-reserch"  },
+                {name:"Employment template", val :"market-reserch"  },
+                {name:"Employee exit", val :"Nonprofits"  },
+                {name:"Employee benefit", val :"Nonprofits"  },
+                {name:"Recruitment satisfication", val :"Nonprofits"  },
+                {name:"Department performance", val :"Nonprofits"  },
+                {name:"Employee performance", val :"Nonprofits"  },
+                {name:"CRM software survey templat", val :"market-reserch"  },
+                {name:"Customer experience", val :" market-reserch"  },
+                {name:"Website feedback (intercept) survey template", val :"market-reserch"  },
+                {name:"Feature request template", val :" market-reserch"  },
+                {name:"Post purchase evaluation template", val :"market-reserch"  },
+                {name:"Customer testimonial template", val :"market-reserch"  },
+                {name:"Customer review template", val :"market-reserch"  },
+                {name:"Brand perception survey", val :"market-reserch"  },
+                {name:"Consumer behavior", val :"market-reserch"  },
+                {name:"Mailchmp customer check-in template", val :"market-reserch"  },
+                {name:"Coronavirus B2B customer pulse survey template", val :"market-reserch"  },
+                {name:"Mobil app feedback", val :" market-reserch"  },
+                {name:"Software and app customer feedback", val :"market-reserch"  },
+                {name:"Customer feedback survey template (Business to Business)", val :"market-reserch"  },
+                {name:"University student satisfaction", val :"market-reserch"  },
+                {name:"Education demographics", val :"market-reserch"  },
+                {name:"Course evaluation survey template", val :"market-reserch"  },
+                {name:"Learning support", val :"education"  },
+                {name:"K-12 parent template", val :"market-reserch"  },
+                {name:"Parent engagement", val :"market-reserch"  },
+                {name:"University teaching assistance evaluation survey template", val :"market-reserch"  },
+                {name:"Child behaviors survey template", val :"market-reserch"  },
+                {name:"Employee exit", val :"market-reserch"  },
+                {name:"Employee benefit", val :"market-reserch"  },
+                {name:"Recruitment satisfication", val :"market-reserch"  },
+                {name:"Work environment", val :"market-reserch"  },
+                {name:"Department performance", val :"market-reserch"  },
+                {name:"Employee performance", val :"market-reserch"  },
+                {name:"Employment template", val :"market-reserch"  },
+                {name:"Brand perception survey", val :"others"  },
+                {name:"Customer comments", val :" others"  },
+                {name:"customer satisfaction survey", val : "customers " },
+                {name:"customer service", val : "customers"  },
+                {name:"Net Promoter Score(NPS) ", val :" customers"  },
+                {name:"Software evaluation survey templete", val : "customers"  },
+                {name:"customer service feedback", val : "customers  "},
+                {name:"Hotal feedback", val : "customers"  },
+                {name:"Cunsumer behavior ", val :"customers"  },
+                {name:"Typical customer anyalysis", val :"customers"  },
+                {name:"Retailer customer feedback", val :"customers"  },
+                {name:"Brand perception survey", val :"customers"},
+                {name:"Restaurant feedback survey templete", val :"others"  },
+                {name:"Path to purchase", val :"others"  },
+                {name:"NPS and brand loyalty", val :" others"  },
+                {name:"Corporate social responsibility survey templete", val :"others"  },
+                {name:"Help desk feedback survey template", val :"others"  },
+                {name:"Homeowners' Association(HOA) survey template", val :"others"  },
+                {name:"Bullying survey", val :"market-reserch"  },
+                {name:"University faculty satisfaction", val :"market-reserch"  },
+                {name:"University student graduation template", val :"market-reserch"  },
+                {name:"school climate", val :"market-reserch"  },
+                {name:"University instutor evalutin", val :"market-reserch"  },
+                {name:"High school sports- student feedback", val :"market-reserch"  },
+                {name:" Workshop survey", val :"market-reserch"  },
+                {name:"School program fit", val :"market-reserch"  },
+                {name:"parent self-efficacy", val :"market-reserch"  },
+                {name:"Aluni template", val :"market-reserch"  },
+                {name:"Name That Novel survey template", val :"market-reserch"  },
+                {name:"High school teacher evaluation template", val :"market-reserch"  },
+                {name:"360-degree employee evaluation", val :"market-reserch"  },
+                {name:"Employee engagement", val :"employees"  },
+                {name:"Management performance", val :"market-reserch"  },
+                {name:"Employee satisfaction", val :"market-reserchs"  },
+                {name:"Team performance", val :"market-reserch"  },
+                {name:"Automobile buyer feedback", val :"others"  },
+                {name:"Social media safty", val :" others"  },
+                {name:"CRM software survey templat", val :"others"  },
+                {name:"Customer experience", val :" others"  },
+                {name:"Website feedback (intercept) survey template", val :"others"  },
+                {name:"Feature request template", val :"others"  },
+                {name:"Post purchase evaluation template", val :"others"  },
+                {name:"Customer testimonial template", val :"others"  },
+                {name:"Customer review template", val :"others"  },
+                {name:"Brand perception survey", val :"others"  },
+                {name:"Consumer behavior", val :"others"  },
+                {name:"Mailchmp customer check-in template", val :"others"  },
+                {name:"Coronavirus B2B customer pulse survey template", val :"others"  },
+                {name:"Mobil app feedback", val :" others"  },
+                {name:"Software and app customer feedback", val :"others"  },
+                {name:"Customer feedback survey template (Business to Business)", val :"others"  },
+                {name:"University student satisfaction", val :"others"  },
+                {name:"Education demographics", val :"others"  },
+                {name:"Course evaluation survey template", val :"others"  },
+                {name:"Learning support", val :"others"  },
+                {name:"K-12 parent template", val :"others"  },
+                {name:"Parent engagement", val :"others"  },
+                {name:"University teaching assistance evaluation survey template", val :"others"  },
+  
+  
+                 
+                
+                
+  
+                 
+                 
+  
+  
+  
+  
+  
+    ];
+      display(arrobj)
+               
+    
+      function display(arr){
+          document.querySelector(".scroll-object").innerHTML=""
+           
+           for(let i = 0; i < arr.length; i++){
+              if(i == 0 || i == 5 || i == 10|| i == 15||i == 20|| i == 25|| i == 30|| i == 35|| i == 40|| i == 45|| i == 50||i == 0 || i == 5 || i == 10|| i == 15||i == 20|| i == 25|| i == 30|| i == 35|| i == 40|| i == 89|| i == 87  ){
+                  let div = document.createElement("div");
+              div.className = "box"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          }else if(i == 100 || i == 105 || i == 55|| i == 60||i == 65|| i == 70|| i == 75|| i == 80|| i == 85|| i == 90|| i == 95 || i == 89|| i == 91|| i == 94|| i == 95|| i == 99){
+              let div = document.createElement("div");
+              div.className = "box1"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+            
+          }else if(i == 160 || i == 155 || i == 150|| i == 145||i == 140|| i == 135|| i == 130|| i == 125|| i == 120|| i == 115|| i == 110|| i == 93|| i == 101|| i == 104|| i == 195){
+              let div = document.createElement("div");
+              div.className = "box2"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+              
+          }else if(i == 165 || i == 170 || i == 175|| i == 180||i == 185|| i == 190|| i == 195|| i == 200|| i ==205|| i == 210|| i == 215 || i == 106|| i ==111 || i == 114|| i == 117|| i == 121|| i == 124|| i ==128 || i == 132|| i ==136 || i ==138 ){
+              let div = document.createElement("div");
+              div.className = "box3"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          }else if(i == 8 || i == 16 || i == 24|| i == 32||i == 40|| i == 48|| i == 56|| i == 64|| i == 72|| i == 9|| i == 18|| i == 107|| i == 95|| i == 112|| i == 118|| i == 156|| i ==179 || i == 122|| i ==127 || i ==129 || i == 133){
+              let div = document.createElement("div");
+              div.className = "box4"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          }else if(i == 27|| i == 36 || i == 54|| i == 63||i == 72|| i == 81|| i == 90|| i == 7|| i == 14|| i == 21|| i == 183|| i == 28|| i == 113|| i ==116 || i == 119|| i ==138|| i == 149|| i == 123|| i == 126|| i == 131|| i == 134|| i ==137 || i == 139|| i == 191|| i ==201 || i == 211|| i == 187|| i == 177|| i == 154|| i == 198|| i == 143|| i == 208){
+              let div = document.createElement("div");
+              div.className = "box5"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          }else if(i == 42 || i == 49 || i == 6|| i == 12||i == 18|| i == 24|| i == 36|| i == 16|| i == 4|| i == 8|| i == 12){
+              let div = document.createElement("div");
+              div.className = "box6"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          
+          }else if(i == 31|| i == 37 || i == 46|| i == 12||i == 51|| i == 61|| i == 66|| i == 68|| i == 77|| i == 82|| i == 12){
+              let div = document.createElement("div");
+              div.className = "box7"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          
+          }else if(i == 38 || i == 49 || i == 41|| i == 47||i == 18|| i == 53|| i == 67|| i == 69|| i == 84|| i == 8|| i == 12){
+              let div = document.createElement("div");
+              div.className = "box8"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          
+          }else if(i == 3 || i == 6 || i == 9|| i ==2||i == 4|| i == 11|| i == 17|| i == 23|| i == 29 || i == 1|| i == 26){
+              let div = document.createElement("div");
+              div.className = "box9"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          
+          }else if(i == 13 || i == 19 || i == 22|| i == 12||i == 29|| i == 33|| i == 39|| i == 16|| i == 83|| i == 73|| i == 76){
+              let div = document.createElement("div");
+              div.className = "box10"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          }else if(i%2 ===0){
+              let div = document.createElement("div");
+              div.className = "box11"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          
+          }else {
+              let div = document.createElement("div");
+              div.className = "box12"
+              div.innerText = arr[i].name
+          
+              document.querySelector(".scroll-object").append(div)
+          }
+            
+           }
+          }
+          
+           
+           
+          
+          
+         
+          
+         
+  
+      
+      
+      
+      
+     
+    
+        
+    
+  
+  
+   
+      // document.querySelector(".checkit").addEventListener("click",funbtn1)
+  
+              let x =  document.querySelectorAll(".checkit")
+               for(let i = 0; i < x.length; i++){
+                  var count = 0
+                  x[i].addEventListener("click",function(){
+                          console.log(x[i].value)
+                          if(x[i].value == "all"){
+                              display(arrobj)
+                          }else{
+                              let y = arrobj.filter(function(el){
+                        return el.val == x[i].value
+                   })
+                         display(y)
+  
+                          }
+                      
+                       
+                  })
+              }
+          
+                  
+               
+               
+  </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

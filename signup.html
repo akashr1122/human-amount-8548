@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up</title>
+    <style>
+        #main{
+    
+            margin: auto;
+          
+         padding: 30px;
+            width: 430px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            
+            
+        }
+        #form{
+            display: grid;
+            width: 100%;
+             padding-bottom: 20px ;
+             margin-bottom: 20px;
+            
+          
+
+          }
+          #img{
+             
+           
+              width: 50%;
+              margin: auto;
+              margin-left: 290px;
+              margin-top: 100px;
+            
+            
+        
+          }
+        
+        
+        #network{
+            display: flex;
+           text-align: center;
+            /* border: 1px solid green; */
+        }
+        #network > div{
+           
+
+            width: 100%;
+             /* border: 1px solid red; */
+             gap: 20px;
+           text-align: center;
+        }
+        img{
+            display: block;
+            margin: auto;
+            width: 35%;margin-top: 3px;
+            border: 1px solid #D0D2D3;
+            /* border: 1px solid orange; */
+            padding: 11px 18px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+        }
+         img:hover{
+             background-color:#D0D2D3;
+         }
+        #micro > img{
+         width: 28%;
+         margin-top: 3px;
+         padding: 14px 20px;
+       
+
+        }
+        #account{
+         margin-left: 40%;
+         font-size: 18px;
+        }
+        #account a{
+            text-decoration: none;
+        }
+
+        
+       
+       
+        #email{
+         height: 40px;
+         padding: 0px,16px;
+        }
+        button{
+            height:50px ;
+         background-color:#06BF6F ;
+         font-size: 15px;
+         color: azure;
+         border: 0;
+        }
+        span{
+           color:#6B787F;
+        }
+        #network > div > p{
+            color: #333E48;
+            font-size: 14px;
+        }
+        #create{
+            font-size:40px;
+            color:#484c4e;
+        }
+      
+        
+        
+    </style>
+    
+
+</head>
+
+     <div id="img"> <img src="https://prod.smassets.net/assets/cms/cc/app/2.178.0/images/logo-surveymonkey.svg" alt=""></div>
+         <div id="main">
+            
+
+            <form id="form">
+                <p id="account">Already have an account? <a  href="login.html">Log in</a></p>
+                 
+                <p id="create">Create an account </p>
+       
+                 <label for="">Email address</label> 
+                  <input type="text" id="email"> <br>
+                 <span><input type="checkbox" id="checkbox">You agree to the Terms of Use and Privacy Notice</span> <br>
+                 <span><input type="checkbox" id="checkbox1"> 
+                   You agree to receive product news and special promotions via email. You can opt-out of these emails in your My Account page anytime.</span> <br>
+                     <button id="button">Next</button>
+       
+                </form>
+
+                <p>Or sign up with</p>
+            <div id="network">
+                   
+                 <div id="micro"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAe1BMVEX0QzZMr1AhlvP/wQf/////vgD0Nia63LtAq0Ww0vkAkfP/4636uLRJrk3/+Pj6saz2bWT1TEBVs1l0v3e027X4/Pn8zsv0PzLQ6NEsm/T/xBVWrPX/zUim0Pr/4qD3+//H4vz/7cPzJg8zqDj94N7h7+Hd6/z/8tsAjPI036d3AAABpElEQVR4nO3cSU5CURBA0fr4aBVFAcWGxt79r1CIEzFx+Ovlk3M3UDmppIYVpZTLq9l1tN3govxuOGra7ma+WO4nRSm3MbhrHVhB2ExHzeogvM3wVREejKsSl5ECrCNsps0yrgYpwErCZrSIWc4Kawmn82j/ilYVNjdJvnrChpCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQ8F/hIKmXP8LXUVJxkdXbkfB9mFWUU4+w+xF2P8LuR9j9CLsfYfeLcVYfR3M/z7OKSVJf4yPheT+r6CU1+Ss8S4qQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkJCQkPBf4f2JCx/i8cSFT7GenLSwv4ltDrDaDpdRdjlLrCPsPx8+lu96GcYawv7Z889P9u36sf2Lmi98eNos95O+AYpCk2OCi44MAAAAAElFTkSuQmCC" alt=""> 
+                       <p>Microsoft</p>
+                  </div>
+                    <div id="fb">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBarSUWvj719RhU5wMNMsodr0h6WnjPYrJSa1pFEyM9DKqWH-B6n6j&usqp=CAE&s" alt="">
+                        <p>Facebook</p>
+                    </div>
+                  
+                    <div id="lin">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAAAYFBMVEUAe7YAe7X///8AerUAerb+/v4AdLMAd7Slw9x8sNLl8fdnn8mcxd7R4+/z+PsAcbGZv9rc6/SHtNQzjL8fg7u81uejyeDs9vpwqs9QmcarzOJspMsrh7xKlMTF3Ot5qs67n/tDAAAEUElEQVRogd1aiXLjIAzlCiTOgRM7zdn2//9yAV+SwIlb453Z1Q7uRphnodsHE0IUp0pKnpMkv90PQjAhSq0Vy0xS6frLgZdWySXImCM7aplb7JZUxTZ6IWyHzp5ZLYnNyhbRd0tsOcE5zwA+HiLUBHj4P0r5wzDYMBcvAix/8l/WuTLGqPna4gmdK1tvr4+nNTnAyU7s5154Ol4zZAVsUKlL0dFZZU5ndicG+jKzsw7S902IVUdCnPRcncMfdi8gHeaWEAgunysELrYzXcZHYEfmIbxa2oMbax34DIzJFBaAC+kNFlzcbdhZNyaroh0oQs2VgK+nWJSNXxfpvALO4v3le67OIekjlpznLK/BogPtMpTXPhcrZs8giI5KwjlGMrdi739x6A3SnIMjenc81pIj43N0csqMdJ7uwl6LJjpLbeYrhaJrfTuVpy3P0uLFWdhorU2WFi8V0mEHOajfQWMv/5+f7v1Xi96Rcvqz1joVjpoHb0RDMklux7P19+5+vn+Uj9raEbVAP1XVx26gj4dpnb+E3Mq5v2vty8sQypf7p041I0h1JPzXTfhzfYHch2GG3Un+FF+fOqF3JZ38friD2RLwhq8LXJ50ha7W0OpkZYvV/8MXouANm4DbWwztqbSR5FBHTnKYztta4SUH3O3nCmX9oVt40NryC/Aiie1mDjXpFtAuIp0HLtE5KSiQ7l0B6Bwf+mUErhIGfUGrmvh5N3yvHqklsINaQpJPqwOsOGnGMChWS9Oy+EOrFih5P5cY/rAnDoOSLZW8YevYhP3VCBtn8Al+zhM6P+x3p025X1H+Tc2WXKyf1ucwW+3xjCg1ktx1srIZkkfe0vs5po276/DJ3xUt3Bd7Z2x93WN2uZ4n/TzwI/C77VOdqvGUsyhv0WgeSweRIuCHGijWntFcgd2FBBHx8y6IIPsMS4PL0nDuYmWqhk4Of9eeQtnwDcMB30cRb8HgvbdAesK2Q/ELAW+Jt97Cu5FwRT+Bs+KKST4skgpNHtQwiW9b4sTVzGLJL0ahNcgZD6MFOuGKgTB4YVDWpuASlIl3xUJGxaLQEFyaPVVL8wSmaZHloMAYPA5/Dy7BIgLu8DhKXH08ReCBzyl43/X5EUkOAd9XImLQQsMl8qVBfxz+BercY2+BgO+rf0Itbwz6+9ZigreA1mJoMGKD8jGDdkti8K7Vn5ZyJdU5zE2RQUfvi3MY9Ifg/4Lkk1roAj8ReOPnXZrhOEKb3BJX/5BbuiUyeEtzeiv5MDely50l+UCRWvoIReBwyUg+74NoQclnZkWlp2bF7N6SGxz5ee5iMd5xJe+gGb6DvrySfEXVMjz2UtUGkuvkPV+aK+RejQQPyaR5oDWNWoYT4HUMpH4Wcemjr5eT/zFlfxObidSCtKzkz74vHQ7vfk08W7LNcq5pln3B7V/NL4Jt1LH9qKB/PKLwu1X8PCZiji8yNnxUED6HyC128znEH8NmUKhT/pCjAAAAAElFTkSuQmCC" alt="">
+                        <p>Linedin</p>
+                    </div>
+                    <div id="gog">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABcCAMAAADUMSJqAAABEVBMVEX////qQzU0qFNChfT7vAWErPM7gfSStPj4+v9NivX7uQAvp1DqPzDqQTPpLxz/vQDpOSj86+oYokL50c/xjYf+7c/80HUvffO/38bR6NYopUv++fnpKhP3wr/rSj3pNSNZtG/sXVPvfnf0ranoHwD73tz1tLD7wj3+8tz803/91oz93aL7viD/+e7b5fzs8vt1vobp9OyKx5jd7uCWzKLymJLtaF7ucWnxgznpNDX+5rv1mSPsVTXwdy74rRnvazL0jybxfRumwfd0ofSWrjFprU2+0vjUuCdglfStszbeuR+Fr0Su17ftuxVNq1LBtjGYtU0yj781m5g3pWw9jtA3mKw2oX0xpV5Ai+Axqj6ItN7EDy1tAAAD+klEQVRoge2WaVfaQBSG4xBBSQhhQAMhQABRW7WggK3WaotdaEvtYltr//8PaRaWySzhJsQPPcfni+eYmYd73rlzE0l6ZEUKHtWErdViu9RcU3UPde201C4m9BPFYdOydFXNzVHVhmWdDjurmjulNc2plYOqa/VhYQV1rbmj53hmn5y+87wYV13XuDUH6teacfTFuhZSNKG3TqOGX21ZILVf/TCSu9bQoWqHXKMeofgSvOxZ8W1oJM1GNLVbvNYCXauCGiWSOTuQ2jvq0v7joZUgblgDxnIX1IdzVx8wE6kZfpbuSIztLol7MKc3NGc+OrNQa1DRwdw1S2i26q12seO+iDrFdmvNIoYlzF1t8A9TZQd3Z5ibLYa5pRY38JzWrPFW79Y9PdBd5Iaiq1y1S9sZ90C3VOeFYoWNjMLpDtBd0ziRWLvhm5Y8nvPijBN33Dckxbn8krbntJU/HqbsyXL2Iqi3Eqpb2s/KDq9I+7K84Tzx5GQ0eispt3Qo+1xezAJXE/vg3MrKM6784jXh3YnM04Vcfu3a1WZibrdXFlwmW/hRVg5wdVZPzE1G7vMm2gdaKAe0PLsvWJlZB/GM2LJNyw8F7o1UGoIxIvbs0YVvi+SbKQjpa2LPIS0/WE2e2iT2yLR8a0V5amO+he5E8XlC5eluiPxoRbmxaJd9Wi7/L/IHjSX5AyXkybci0S3JXyKizxO//qkUsQc+uICzZUzsAY9cwVRk5OTgol4W+fzbgaD0DJdrWk6O3GAv5uV3ChLI+Yyo2o335FPyRPMfEEK4HEU+pio3uuRT4tMi/9FxI8WO4O4adCyBx/PQvUhQxNIzVCrp9eDz6TXKf7pBU0y4nO6WYOSzD1E/kqm8B3WPmFS6wQXu1M3LnxEBnsDcXabNx/SSPTn/5QYFwBWQfMykMqKXnGe/IhqQfZ0OJWWwi74pjBxiZwJnesWljFn58twzjDvwopiDOKUjHNoz3WvWHRhacyq80pFpim/T5Dvr5hcuST2TZ0fY5uvLd/j+BzNu+YU7cEt35gxGg2NqaX+gYCdGfLtJX/0uVy04U09vYtSbVPrHLv3yoGdic5baz0A0bI/POeEH4/tNjE1FUbw/xP/vfxH2NHM5CWyxXcj971R6aSgeCq8fl2De/TFCO2XGsRnDrtz7PRkSuE8fx7AjryeNzBK3Y49TOzJvNw3OTGGTUWKcKjLxX4Bbitcz0FeL0++i2yRCCZlADGUzUvHmHT0ewunBu0bBoo8/IRUE0yvY7kd1O5QBekcNe41z9DYOy94ZYoJZD6N/gjD/VrljmBnzkakMbGfKBsasO37tQdw8mB+Y9GzX6aIg+2SSlHiB9yJaOYlH/gEdM3AqnMSqHgAAAABJRU5ErkJggg==" alt="">
+                        <p>Google</p>
+                    </div>
+                    <div id="app">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_fJwRcc35aQ5YVV5cPXD9urbo6ZM3m5xf_Urpc-soRAVlt1Dlz_09&usqp=CAE&s" alt="">
+                         <p>Apple</p>
+                    </div>
+             </div>
+             </div>
+        
+
+            
+
+                 
+        
+      
+</body>
+</html>
+
+  <script>
+        
+      document.querySelector("#button").addEventListener("click", funbut);
+            
+      
+        function funbut(event){
+            event.preventDefault()
+          
+            let obj = {
+                 email: document.querySelector("#email").value
+            }
+              if(obj.email !== ""  ){
+                
+                
+                    localStorage.setItem("emailup",JSON.stringify(obj))
+                    window.location.href ="passwordup.html"
+                
+                    
+              }else{
+                  alert("fill email")
+              }
+        }
+  </script>
