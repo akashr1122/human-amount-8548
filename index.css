@@ -1,0 +1,738 @@
+
+    /* pop up start */
+
+
+      #popup11{
+            display: flex;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        /* width: 100%; */
+            height: auto;
+            padding: 10px 25px;
+             justify-content: center;
+            /* border: 2px solid red; */
+
+
+        }
+        .seconddiv1{
+            display: flex;
+        }
+
+
+.dropbtn:hover, .dropbtn:focus {
+     background-color: rgb(136, 130, 130);
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+   width:800px;
+    margin-left: 30%;
+
+
+  overflow: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+    /* pop up end  */
+        #navbar{
+            display: flex;
+            /* justify-content: space-around; */
+              margin: 40px;
+              margin-left: 90px;
+              margin-right: 90px;
+              font-size: 20px;
+               font-weight:600;
+            
+               color: #333E48;
+              
+        }
+        #mid{
+             display: flex; 
+              gap: 40px;
+            margin: auto;
+        }
+        #signup{
+            margin-left: 20px;
+          
+        }
+        button{
+            background-color: #f9BE00;
+
+
+            
+            font-size: 20px;
+               font-weight:600;
+            padding: 16px;
+            border: 0;
+         
+        }
+        a{
+            color: #333E48;
+            text-decoration: none;
+        }
+        #header,
+        .but{
+            font-size: 20px;
+            color: rgb(104, 94, 94);
+            display: grid;
+            margin: auto;
+            justify-content: center;
+              
+        }
+        #header{
+            margin-top: 150px;
+        }
+  
+        .auto-type{
+            font-size: 60px;
+            font-weight: bold;
+           
+            color: #34393d;
+            /* color: white; */
+        }
+        #butt{
+            
+            width: 100%;
+            margin:auto;
+            padding: 0px 36px;
+            height: 50px;
+            /* margin-bottom: 550px; */
+            background-color:#00BF6F ;
+        }
+        #butt >a{
+            color: #FFFFFF;
+            font-size: 15px;  
+             
+
+        }
+    .aass{
+            text-align: center;
+            margin-top: 150px;
+            color: #333E48;
+            font-size: 25px;
+        }
+        #logo{
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            margin-top: 50px;
+            width: 70%;
+        }
+        #logo > div> img{
+            /* display: block; */
+                /* margin: auto; */
+                width: 65%;
+                margin-left: 20px;
+        }
+       
+        .imgg > img{
+          margin-top: 15px;
+         /* border: 1px solid red; */
+        }
+        #plan{
+            margin-top: 80PX;
+            text-align: center;
+           
+        }
+        #plan > h3{
+            font-size: 30px;color: #293035;
+        }
+        #plan > p{
+            color:gray ;
+        }
+        #planop{
+             display: flex;
+             margin: auto;
+             justify-content: space-evenly;
+             /* border: 1px solid red; */
+             width: 900px;
+        }
+         #planop > div{
+             border: 1px solid white;
+             width: 400px;
+             padding: 20px;
+             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+         }
+         #planop{
+              text-align: center;
+              margin-top: 50px;gap: 30px;
+              
+         }
+         #planop img{
+              width: 90px;
+         }
+        
+         .grn{
+             background-color: #00BF6F;
+             color: white;
+             margin-top:33px ;
+             font-size: small;
+         }
+         .blue{
+             background-color: #05467E;
+             color: white;
+             font-size: small;
+         }
+         .vlt{
+             background-color:#671E75 ;
+             color: white;
+             font-size: small;
+         }
+         #planop h1{
+             font-size:35px;
+              color: #171a1b;
+         }
+         .p{
+            color: #333E48;
+         }
+         #blue{
+             margin: auto;
+             margin-top: 80px;
+             background-color: #05467E;
+             height: 300px;
+             justify-content: center;
+             text-align: center; 
+             padding: 40px;
+             color: white;
+             font-size: 20px;
+             width: 1500px;
+         }
+         .text{
+             width: 40%;
+            
+             padding-top: 60px;
+            margin-left: 30%
+         }
+         .learn{
+              padding: 10px;
+              background-color: #FFFFFF;
+              font-size: small;
+              margin-right: 50px;
+
+         }
+         #backg{
+             background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png");
+             width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             justify-content: center;
+             align-items: center;
+         }
+         #white{
+             width: 1000px;
+             margin: auto;
+             text-align: center;
+             font-family: Arial, Helvetica, sans-serif;
+           color: #272d33;
+               margin-top: 100px;
+               font-size: 30px;
+         }
+        
+      
+        #main_scroll{
+            display: flex;
+            margin: auto;
+            width: 100px;
+            justify-content: space-around;
+            gap: 150px;
+        }
+       
+
+
+
+
+        
+        .scroll-filterbg{
+width: auto;
+margin: 40% auto;
+/* padding: 30px; */
+
+
+
+
+        }
+
+        .scroll-filterdiv{
+         width: 100%;
+          /* background-color: aqua; */
+         height: 600px;
+         overflow: hidden;
+         overflow-y: scroll;
+         margin-right: 100px;
+         margin-left: 90px;
+        }
+        .scroll-filterbject{
+            font-family: cursive;
+            font-size: 15px;
+           
+            
+            
+        }
+
+
+
+
+
+        .scroll-bg{
+width: 1000px;
+margin: 10% auto;
+padding: 30px;
+margin-right: 70px;
+
+
+        }
+
+        .scroll-div{
+         /* width: 1000px; */
+         width: 100%;
+          /* background-color: aqua; */
+         height:600px;
+         padding-right: 30px;
+         
+         overflow: hidden;
+         overflow-y: scroll;
+        }
+        .scroll-object{
+            font-family: cursive;
+            font-size: 15px;
+        
+            padding: 40px;
+            display: grid;
+            grid-template-columns: repeat(4,160px);
+            /* gap: 70px; */
+            gap: 40px;
+            column-gap: 90px;
+            
+            
+        }
+        .box{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box1{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Product-Survey.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box2{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//product-testing-survey-template.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box3{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//university-student-satisfaction-survey-template.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box4{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//online-shopping-attitudes-survey-template.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box5{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Brand-Awareness.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box6{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//skin-care-products-survey-template.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box7{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//new-product-survey-template.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto; color: white;
+              font-weight: bold;
+              text-align: center;
+              
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box8{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//package-testing.jpg");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box9{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//Work_life_balance.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+              color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box10{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//fundraising-feedback-survey-template.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box11{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//self-driving-cars-survey-template.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+        .box12{
+            background-image: url("https://prod.smassets.net/assets/cms/sm/uploads//survey-template-placeholder.png");
+            width: 200px;
+             height: 200px;
+             display: flex;
+             margin: auto;
+             color: white;
+              font-weight: bold;
+              text-align: center;
+              
+             justify-content: center;
+             align-items: center;
+        }
+
+        #main_group {
+            padding-bottom: 500px;
+        }
+        .flex{
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            
+
+        }
+         .flex_box{
+          
+             margin-left: 10px;
+             font-size: 20px;
+             color: #333e48
+            
+             /* width: 24px; */
+         }
+         input.checkit{
+             transform: scale(2);
+             margin-right: 10px;
+            
+             
+         }
+         .num{
+            font-size: 18px;
+            color: darkslategray;
+            margin-right: 10px;
+         }
+         #allsur{
+             color: crimson;
+             font-weight: bold;
+         }
+         #allnum{
+             color: crimson;
+             font-weight: bold;
+         }
+         #scrollerop{
+             margin-top: 70px;
+         }
+         #noneed{
+             width: 900px;
+             
+             margin: auto;
+             margin-top: 120px;
+             text-align: center;
+             font-size: 29px;
+             font-family: Arial, Helvetica, sans-serif;
+             color: #333E48;
+           
+             /* font-weight: bold; */
+         }
+         #noneed > h4{
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #24282b;
+         }
+         #imgwla{
+             display: flex;
+             width: 1500px;
+             margin: auto;
+        
+             margin-top: 100px;
+             text-align: center;
+             justify-content: center;
+             font-size: 18px;
+             font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+             /* gap: 30px; */
+           
+         }
+         #imgwla > div > div{
+             /* width: 10%; */
+             width: 500px;
+             /* margin-left: 70px; */
+             
+                font-weight: 100;
+             font-size: 29px;
+              color: #333E48;
+         }
+         #imgwla > div >h5{
+             /* width: 10%; */
+             font-size: 28px;
+             color: #2c363d;
+         }
+         #toolkits {
+             width: 1500px;
+             text-align: center;
+             display: flex;
+             margin: auto;
+             justify-content: space-evenly;
+             color: #007faa;
+             font-size: 20px;
+
+             font-family: Arial, Helvetica, sans-serif;
+             
+             /* font-weight: bold; */
+             /* margin-bottom: 2000px; */
+         }
+         .h55{
+            width: 1500px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333E48;
+            
+            font-size: 40px;
+        
+             margin: auto;
+             /* margin-left: 10px; */
+             text-align: center;
+             margin-top: 100px;
+
+         }
+         #btnn{
+
+             margin: auto;
+             margin-top: 100px;
+             width: 1500px;
+         
+             /* justify-content: center; */
+             text-align: center;
+         }
+         #btnn > button{
+            background-color: white;
+             border: 1px solid black;
+             color: #333E48;
+             height: autopx;
+             font-family: Arial, Helvetica, sans-serif;
+             margin-left: 100px;
+             font-size: 17px;
+             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+             padding: 15px 33px;
+             padding-bottom: 15px;
+             /* padding: 0; */
+         }
+         .secondlast{
+            width: 1000px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333E48;
+            font-size: 60px;
+         display: grid;
+              margin: auto;
+              /* justify-content: center; */
+             /* margin-left: 5px; */
+             /* margin-left: 10px; */
+             text-align: center;
+             margin-top: 130px;
+
+         }
+
+        #secondimg{
+            width: 1500px;
+            display: flex;
+            margin: auto;
+            justify-content: space-evenly;
+            text-align: center;
+            gap: 100px;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+          color: #272d33;
+
+        }
+        #secondimg > img{
+            width: 100%;
+
+        }
+        #secondimg p {
+            width: 100%;
+            font-size: 30px;
+ color: #333E48;
+        }
+        #secondimg button {
+
+            /* width: 100%; */
+            /* font-size: 30px; */
+            background-color: white;
+            border: 1px solid black;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 12px 27px;
+            font-size: 18px;
+               color: #333E48;
+        }
+        .still{
+            width: 1500px;
+            margin: auto;
+            margin-top: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+              font-size: 20px;
+              color: gray;
+        }
+        .still h5{
+            font-size: 50px;
+            color: #333E48;
+        }
+        #finalimgg{
+            width: 1500px;
+            margin: auto;
+            margin-top: 80px;
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #333E48;
+            font-size: 20px;
+            justify-content: space-evenly;
+            
+        }
+        #finalimgg img{
+            width: 90%;
+        }
+        #finalimgg>div>p:nth-child(3){
+            width: 400px;
+        }
+        #finalimgg>div>p:nth-child(4){
+             color: #007faa;
+             font-size: 22px;
+        }
+        .choto{
+           width: 700px;
+           margin: auto;
+           margin-top: 130px;
+           /* justify-content: center; */
+           text-align: center;
+            color: #333E48;
+         
+        }
+        #footer{
+            display: flex;
+            width: 1000px;
+              margin: auto;
+             margin-top: 100px;
+             font-family: Arial, Helvetica, sans-serif;
+             color: grey;
+             font-size: small;
+           
+             /* justify-content: center; */
+        }
+        #footer>div:last-child{
+               color: gray;
+               font-size: small;
+               margin-left: 30px;
+        }
+        #footer>div>p{
+            padding: 10px;
+        }
+      
+        
+
